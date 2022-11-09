@@ -698,3 +698,5 @@ WITH cte AS (
 SELECT custumer1, custumer2, firstName, lastName
 FROM cte JOIN Employees ON cte.salesRepEmployeeNumber = Employees.employeeNumber;
 
+
+
